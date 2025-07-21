@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Assistant</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="chatbox">
+      <textarea id="screenText" placeholder="Screen summary..." readonly></textarea>
+      <textarea id="question" placeholder="Ask about the screen..."></textarea>
+      <button onclick="askGPT()">Ask</button>
+      <div id="answer"></div>
+    </div>
+    <script src="renderer.js"></script>
+  </body>
+</html>
